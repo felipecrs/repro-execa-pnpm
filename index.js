@@ -1,7 +1,7 @@
 import { execa } from 'execa';
 
 export async function main() {
-    await execa('ovsx', ['--version'], {
+    await execa('cowsay', ["It's working!"], {
         preferLocal: true,
         stdio: 'inherit',
     })
