@@ -17,7 +17,7 @@
     "pnpm": "10.13.1"
   },
   "dependencies": {
-    "cowsay": "^1.6.0",
-    "execa": "^9.6.0"
+    "execa": "^9.6.0",
+    "open-cli": "^8.0.0"
   }
 }

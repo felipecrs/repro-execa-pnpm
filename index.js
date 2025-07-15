@@ -1,7 +1,7 @@
 import { execa } from 'execa';
 
 export async function main() {
-    await execa('cowsay', ["It's working!"], {
+    await execa('open-cli', ["--version"], {
         preferLocal: true,
         stdio: 'inherit',
     })
